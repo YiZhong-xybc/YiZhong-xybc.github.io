@@ -143,15 +143,15 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
-collections:
-  books:
-    output: true
-  news:
-    defaults:
-      layout: post
-    output: true
-  projects:
-    output: true
+# collections:
+#   books:
+#     output: true
+#   news:
+#     defaults:
+#       layout: post
+#     output: true
+#   projects:
+#     output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -192,20 +192,19 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _posts/                    # 博客
-  - _projects/                 # 项目
-  - _news/                     # 新闻
-  - _bibliography/             # 出版物
-  - _books/                    # 书籍
-  - _teaching/                 # 教学
+
+  - _posts/
   - _pages/blog.md
   - _pages/publications.md
-  - _pages/projects.md
-  - _pages/repositories.md
+  - _pages/cv.md
   - _pages/teaching.md
   - _pages/people.md
-  - _pages/dropdown.md         # 顶部“More”下拉菜单
-  - assets/jupyter/            # 示例 notebook，可顺手删
+  - _pages/repositories.md
+  - _pages/dropdown.md
+  - _bibliography/
+  - _news/
+  - _teaching/
+  - _books/
 keep_files:
   - CNAME
   - .nojekyll
