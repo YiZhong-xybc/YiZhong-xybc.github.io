@@ -9,10 +9,13 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    email:zhongyi@cau.edu.cn
+    <span style="font-family:'PingFang SC','Microsoft YaHei',sans-serif;
+                color:#444;font-size:15px">
+      <strong>email</strong>: zhongyi@cau.edu.cn
+    </span>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: True # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items

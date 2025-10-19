@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Here are some of the projects I've worked on, including competition entries and course designs.
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [2022-2025]
 horizontal: false
 ---
