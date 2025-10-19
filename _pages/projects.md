@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Here are some of the projects I've worked on, including competition projects and course designs.
+description: Here are some of the projects I've worked on, including competition entries and course designs.
 nav: true
 nav_order: 3
 display_categories: [2022-2025]

@@ -1,32 +1,32 @@
-- title: 基本信息
+- title: General Information
   type: map
   contents:
-    - name: 姓名
-      value: 你的全名
-    - name: 出生日期
-      value: 你的出生日期
-    - name: 语言
-      value: 中文, 英文
+    - name: Full Name
+      value: Yi Zhong
+    - name: Date of Birth
+      value: 2003-12
+    - name: Languages
+      value: English, German
 
-- title: 教育背景
+- title: Education
   type: time_table
   contents:
-    - title: 博士学位
-      institution: 你的大学名称, 城市, 国家
-      year: 你的毕业年份
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - 专业描述 1.
-        - 专业描述 2.
-        - title: 专业描述 3.
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
           contents:
-            - 子描述 1.
-            - 子描述 2.
-    - title: 学士学位
-      institution: 你的大学名称, 城市, 国家
-      year: 你的毕业年份
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - 专业描述 1.
-        - 专业描述 2.
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
