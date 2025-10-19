@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 display_categories: [2022-2025]
 horizontal: false
-cols_per_row: 1          # ← 想一行几个就写几
+cols_per_row: 1 # ← 想一行几个就写几
 ---
 
 <div class="researches">
