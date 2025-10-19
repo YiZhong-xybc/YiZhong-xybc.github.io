@@ -192,6 +192,20 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _posts/                    # 博客
+  - _projects/                 # 项目
+  - _news/                     # 新闻
+  - _bibliography/             # 出版物
+  - _books/                    # 书籍
+  - _teaching/                 # 教学
+  - _pages/blog.md
+  - _pages/publications.md
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - _pages/people.md
+  - _pages/dropdown.md         # 顶部“More”下拉菜单
+  - assets/jupyter/            # 示例 notebook，可顺手删
 keep_files:
   - CNAME
   - .nojekyll
