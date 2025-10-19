@@ -1,23 +1,23 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: 我的第一个项目
+description: 这是一个示例项目，展示如何创建项目页面
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+这是我的第一个项目，展示了如何创建一个美观的项目展示页面。
+你可以轻松地在灵活的3列网格格式中包含图片。
+让你的照片可以是1/3、2/3或全宽。
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+要在作品集页面中为你的项目添加背景，只需在front matter中添加img标签，如下所示：
 
     ---
     layout: page
-    title: project
-    description: a project with a background image
+    title: 项目名称
+    description: 带有背景图片的项目
     img: /assets/img/12.jpg
     ---
 
