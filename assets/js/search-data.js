@@ -11,10 +11,17 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "Here are some of the projects I&#39;ve worked on, including competition projects and course designs.",
+          description: "Here are some of the projects I&#39;ve worked on, including competition entries and course designs.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-researches",
+          title: "researches",
+          description: "Here are some of my research works and academic projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/researches/";
           },
         },{id: "nav-people",
           title: "people",
@@ -45,9 +52,9 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "projects-我的第一个项目",
-          title: '我的第一个项目',
-          description: "这是一个示例项目，展示如何创建项目页面",
+      },{id: "projects-project-1",
+          title: 'project 1',
+          description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
@@ -90,19 +97,24 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "researches-research-project-1",
+          title: 'Research Project 1',
+          description: "A sample research project with background image",
+          section: "Researches",handler: () => {
+              window.location.href = "/researches/1_research/";
             },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75%72.%65%6D%61%69%6C@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%7A%68%6F%6E%67%79%69@%63%61%75.%65%64%75.%63%6E", "_blank");
         },
       },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/your-github-username", "_blank");
+          window.open("https://github.com/zhongyi-xybc", "_blank");
         },
       },{
         id: 'social-inspire',
