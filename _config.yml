@@ -150,8 +150,8 @@ collections:
   #   defaults:
   #     layout: post
   #   output: true
-  # projects:
-  #   output: true
+  projects:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -183,6 +183,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
+  - assets/jupyter/
   - LICENSE
   - lighthouse_results/
   - package.json
@@ -259,14 +260,14 @@ terser:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-    permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  # posts:
+  #   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  #   permalinks:
+  #     year: "/blog/:year/"
+  #     tags: "/blog/:type/:name/"
+  #     categories: "/blog/:type/:name/"
+  # books:
+  #   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
