@@ -9,26 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "projects",
-          description: "Here are some of the projects I&#39;ve worked on, including competition entries and course designs.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-researches",
+  },{id: "nav-researches",
           title: "researches",
           description: "Here are some of my research works and academic projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/researches/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Here are some of the projects I&#39;ve worked on, including competition entries and course designs.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/projects/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
