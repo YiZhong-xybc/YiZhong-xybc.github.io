@@ -72,7 +72,7 @@ ninja.data = [{
               window.location.href = "/projects/5_project/";
             },},{id: "researches-trajectory-planning-for-multi-vehicle-cooperative-parking",
           title: 'Trajectory Planning for Multi-Vehicle Cooperative Parking',
-          description: "An event-triggered grouping strategy and receding horizon planning method for large-scale cooperative parking under continuous traffic flow in highly constrained parking lots (2023.9-2024.6)",
+          description: "A Trajectory Planning Method for Multi-Vehicle Cooperative Parking under Continuous Traffic in Highly Constrained Parking Lots (2023.9-2024.6)",
           section: "Researches",handler: () => {
               window.location.href = "/researches/1_research/";
             },},{id: "researches-mcts-enhanced-actor-critic-algorithm",
