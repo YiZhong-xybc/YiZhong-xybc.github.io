@@ -34,18 +34,18 @@ My research interests lie in **reinforcement learning** and **autonomous driving
 
 I am eager to explore challenging problems in autonomous decision-making and contribute to advancing the state of the art in these areas.
 
-<div style="margin-top: 3rem;"></div>
+<div style="margin-top: 10rem;"></div>
 
 ## Research experience
 
-<div class="row row-cols-1 row-cols-md-3">
+<div class="row row-cols-1 row-cols-md-1">
   {% assign sorted_researches = site.researches | sort: "importance" %}
   {% for research in sorted_researches limit:3 %}
     <div class="col mb-3">
       <a href="{% if research.redirect %}{{ research.redirect }}{% else %}{{ research.url | relative_url }}{% endif %}">
-        <div class="card h-100 hoverable" style="height: 280px;">
+        <div class="card h-100 hoverable" style="height: 300px;">
           {% if research.img %}
-            <div style="height: 120px; overflow: hidden;">
+            <div style="height: 200px; overflow: hidden;">
               {%
                 include figure.liquid
                 loading="eager"
@@ -91,9 +91,9 @@ I am eager to explore challenging problems in autonomous decision-making and con
   {% for project in sorted_projects limit:3 %}
     <div class="col mb-3">
       <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-        <div class="card h-100 hoverable" style="height: 280px;">
+        <div class="card h-100 hoverable" style="height: 300px;">
           {% if project.img %}
-            <div style="height: 120px; overflow: hidden;">
+            <div style="height: 200px; overflow: hidden;">
               {%
                 include figure.liquid
                 loading="eager"
