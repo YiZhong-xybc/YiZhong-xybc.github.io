@@ -65,31 +65,11 @@ ninja.data = [{
           description: "Comprehensive Practice Course Design | Grade A+",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-cotton-seeding-robot",
+          title: 'Cotton Seeding Robot',
+          description: "2023 Int&#39;l Smart Ag-Equipment Contest | Provincial A-Class 2nd Prize",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{id: "researches-multi-vehicle-cooperative-parking-planning",
           title: 'Multi-Vehicle Cooperative Parking Planning',
           description: "Trajectory planning for multi-vehicle cooperative parking under continuous traffic in highly constrained parking lots",
