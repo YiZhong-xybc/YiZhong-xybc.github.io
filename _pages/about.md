@@ -34,24 +34,98 @@ My research interests lie in **reinforcement learning** and **autonomous driving
 
 I am eager to explore challenging problems in autonomous decision-making and contribute to advancing the state of the art in these areas.
 
----
+<div style="margin-top: 3rem;"></div>
 
 ## Research experience
 
-<div class="row row-cols-1 row-cols-md-2">
+<div class="row row-cols-1 row-cols-md-3">
   {% assign sorted_researches = site.researches | sort: "importance" %}
-  {% for research in sorted_researches limit:4 %}
-    {% include researches.liquid %}
+  {% for research in sorted_researches limit:3 %}
+    <div class="col mb-3">
+      <a href="{% if research.redirect %}{{ research.redirect %}{% else %}{{ research.url | relative_url }}{% endif %}">
+        <div class="card h-100 hoverable" style="height: 280px;">
+          {% if research.img %}
+            <div style="height: 120px; overflow: hidden;">
+              {%
+                include figure.liquid
+                loading="eager"
+                path=research.img
+                sizes = "200px"
+                alt="research thumbnail"
+                class="card-img-top"
+                style="height: 120px; object-fit: cover; width: 100%;"
+              %}
+            </div>
+          {% endif %}
+          <div class="card-body d-flex flex-column" style="padding: 1rem;">
+            <h5 class="card-title" style="font-size: 1rem; margin-bottom: 0.5rem;">{{ research.title }}</h5>
+            <p class="card-text flex-grow-1" style="font-size: 0.85rem; line-height: 1.4;">{{ research.description }}</p>
+            <div class="row ml-1 mr-1 p-0">
+              {% if research.github %}
+                <div class="github-icon">
+                  <div class="icon" data-toggle="tooltip" title="Code Repository">
+                    <a href="{{ research.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+                  </div>
+                  {% if research.github_stars %}
+                    <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                      <i class="fa-solid fa-star"></i>
+                      <span id="{{ research.github_stars }}-stars"></span>
+                    </span>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
   {% endfor %}
 </div>
 
----
+<div style="margin-top: 2rem;"></div>
 
 ## Selected Projects
 
-<div class="row row-cols-1 row-cols-md-2">
+<div class="row row-cols-1 row-cols-md-3">
   {% assign sorted_projects = site.projects | sort: "importance" %}
-  {% for project in sorted_projects limit:4 %}
-    {% include projects.liquid %}
+  {% for project in sorted_projects limit:3 %}
+    <div class="col mb-3">
+      <a href="{% if project.redirect %}{{ project.redirect %}{% else %}{{ project.url | relative_url }}{% endif %}">
+        <div class="card h-100 hoverable" style="height: 280px;">
+          {% if project.img %}
+            <div style="height: 120px; overflow: hidden;">
+              {%
+                include figure.liquid
+                loading="eager"
+                path=project.img
+                sizes = "200px"
+                alt="project thumbnail"
+                class="card-img-top"
+                style="height: 120px; object-fit: cover; width: 100%;"
+              %}
+            </div>
+          {% endif %}
+          <div class="card-body d-flex flex-column" style="padding: 1rem;">
+            <h5 class="card-title" style="font-size: 1rem; margin-bottom: 0.5rem;">{{ project.title }}</h5>
+            <p class="card-text flex-grow-1" style="font-size: 0.85rem; line-height: 1.4;">{{ project.description }}</p>
+            <div class="row ml-1 mr-1 p-0">
+              {% if project.github %}
+                <div class="github-icon">
+                  <div class="icon" data-toggle="tooltip" title="Code Repository">
+                    <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+                  </div>
+                  {% if project.github_stars %}
+                    <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                      <i class="fa-solid fa-star"></i>
+                      <span id="{{ project.github_stars }}-stars"></span>
+                    </span>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
   {% endfor %}
 </div>
