@@ -2,17 +2,20 @@
 layout: page
 title: Fruit-and-Veg Sorting Robot
 description: Software Practice Course Design | Grade A+
-img: assets/img/sorter_cover.jpg
+img: assets/img/sorter_cover.png
 importance: 3
 category: 2022-2025
 related_publications: false
 ---
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/video/demo2.mp4" title="Live sorting" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <video controls class="img-fluid rounded z-depth-1">
+      <source src="assets/video/demo2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 </div>
 <div class="caption">
-    system overview.
+  Demo video
 </div>
