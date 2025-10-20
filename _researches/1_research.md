@@ -1,63 +1,31 @@
 ---
 layout: page
-title: Research Project 1
-description: A sample research project with background image
-img: assets/img/12.jpg
+title: Multi-Vehicle Cooperative Parking Planning
+description: Trajectory planning for multi-vehicle cooperative parking under continuous traffic in highly constrained parking lots
+img: assets/img/parking_result.jpg
 importance: 1
 category: 2022-2025
-related_publications: true
+related_publications: false
 ---
 
-This is a sample research project. You can describe your research work here.
+This research proposes an event-triggered grouping strategy that decouples large-scale multi-vehicle cooperative parking problems into small-scale optimal control sub-problems. A receding horizon planning method is designed for continuous traffic flow scenarios.
 
-To give your research project a background in the researches page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: research
-    description: a research project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Research methodology and results visualization.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption describing your research findings.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Describe your research methodology, findings, and conclusions here.
-
+{% raw %}
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1">
+        <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1101319508&bvid=BV1qw4m1o7QX&cid=1460259483&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+        </iframe>     
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  </div>
 </div>
+{% endraw %}
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images for your research results.
+    Multi-vehicle cooperative parking simulation demonstration.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Simulation experiments show that compared with baseline methods, parking delay is reduced by 35.8% and driving speed is improved by 24.7%, significantly improving overall parking lot efficiency.
+
+**Submitted**  
+"A Trajectory Planning Method for Multi-Vehicle Cooperative Parking under Continuous Traffic in Highly Constrained Parking Lots" Han Zheng, Yi Zhong, Yuhao Zhang, Weiwei Kong*, Fachao Jiang; *Automotive Innovation*, under review.
