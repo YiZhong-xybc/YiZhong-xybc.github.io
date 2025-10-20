@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hello, I'm Zhong Yi.
+subtitle: 
 
 profile:
   align: right
@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a senior undergraduate student majoring in Electronic Information Engineering at China Agricultural University. I will begin pursuing my Ph.D. at Tongji University in fall 2026.
+Hello, I'm Zhong Yi.I am currently a senior undergraduate student majoring in Electronic Information Engineering at China Agricultural University. I will begin pursuing my Ph.D. at Tongji University in fall 2026.
 
 My research interests lie in **reinforcement learning** and **autonomous driving**. In particular, I am fascinated by the intersection of control, robotics, and artificial intelligence, and how these fields converge to enable intelligent autonomous systems.
 

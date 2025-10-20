@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Trajectory Planning for Multi-Vehicle Cooperative Parking
-description: An event-triggered grouping strategy and receding horizon planning method for large-scale cooperative parking under continuous traffic flow in highly constrained parking lots (2023.9-2024.6)
+description: A Trajectory Planning Method for Multi-Vehicle Cooperative Parking under Continuous Traffic in Highly Constrained Parking Lots (2023.9-2024.6)
 img: assets/img/parking_result.jpg
 importance: 1
 category: 2022-2025
@@ -18,7 +18,7 @@ Multi-vehicle trajectory planning(MVTP) in constrained parking lots faces signif
 
 **Method**
 
-To address these challenges:
+To address these challenges, we introduce:
 
 - An event-triggered grouping strategy that decomposes large-scale multi-vehicle cooperative parking problems into small-scale optimal control sub-problems
 - A receding-horizon planning method designed for continuous traffic-flow scenarios
@@ -36,13 +36,13 @@ To address these challenges:
 {% endraw %}
 
 <div class="caption">
-    Simulation demonstration.
+    Simulation demonstration
 </div>
 
 Simulation experiments demonstrate that compared with baseline methods, our approach reduces parking delay by 35.8% and improves average driving speed by 24.7%.
 
 **Submitted**  
-"A Trajectory Planning Method for Multi-Vehicle Cooperative Parking under Continuous Traffic in Highly Constrained Parking Lots" Han Zheng, Yi Zhong, Yuhao Zhang, Weiwei Kong*, Fachao Jiang; *Automotive Innovation\*, under review.
+"A Trajectory Planning Method for Multi-Vehicle Cooperative Parking under Continuous Traffic in Highly Constrained Parking Lots" Han Zheng, Yi Zhong, Yuhao Zhang, Weiwei Kong\*, Fachao Jiang; <em>Automotive Innovation</em>, under review.
 
 ```
 
