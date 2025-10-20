@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MCTS-Enhanced Actor-Critic Algorithm
-description: Deep reinforcement learning algorithm combining Monte Carlo Tree Search with Actor-Critic framework (2024.7-2025.3)
+description: (2024.7-2025.3)
 img: assets/img/mcts_cover.jpg
 importance: 2
 category: 2022-2025

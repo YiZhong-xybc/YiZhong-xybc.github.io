@@ -13,11 +13,19 @@ related_publications: false
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
     <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1">
-        <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115403976152937&bvid=BV1gxsuz9EiG&cid=33227738726&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-        </iframe>  
+      <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115403976152937&bvid=BV1gxsuz9EiG&cid=33227738726&p=1"
+              scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+      </iframe>
     </div>
   </div>
 </div>
-{% endraw %}
 
-Compact embedded system that plays tic-tac-toe against a human on a physical 3×3 board.
+<div style="margin-top: 2rem;">
+  <p>
+    Developed a tic-tac-toe human-machine gameplay device. Served as the team leader, coordinating pre-competition preparation and task delegation. Responsible for the electronic control system, including:  
+    - Motor control and UART communication with the OpenMV module based on STM32.  
+    - Implementation of the tic-tac-toe game algorithm.  
+    - Motion planning for the robotic arm.
+  </p>
+</div>
+{% endraw %}

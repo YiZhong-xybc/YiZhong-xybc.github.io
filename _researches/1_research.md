@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Trajectory Planning for Multi-Vehicle Cooperative Parking
-description: A Trajectory Planning Method for Multi-Vehicle Cooperative Parking under Continuous Traffic in Highly Constrained Parking Lots (2023.9-2024.6)
+description: (2023.9-2024.6)
 img: assets/img/parking_result.jpg
 importance: 1
 category: 2022-2025
