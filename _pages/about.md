@@ -44,7 +44,7 @@ I am eager to explore challenging problems in autonomous decision-making and con
   {% assign sorted_researches = site.researches | sort: "importance" %}
   {% for research in sorted_researches limit:3 %}
     <div class="col mb-3">
-      <a href="{% if research.redirect %}{{ research.redirect %}{% else %}{{ research.url | relative_url }}{% endif %}">
+      <a href="{% if research.redirect %}{{ research.redirect }}{% else %}{{ research.url | relative_url }}{% endif %}">
         <div class="card h-100 hoverable" style="height: 450px;">
           {% if research.img %}
             <div style="height: 200px; overflow: hidden;">
@@ -94,7 +94,7 @@ I am eager to explore challenging problems in autonomous decision-making and con
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects limit:3 %}
     <div class="col mb-3">
-      <a href="{% if project.redirect %}{{ project.redirect %}{% else %}{{ project.url | relative_url }}{% endif %}">
+      <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
         <div class="card h-100 hoverable" style="height: 300px;">
           {% if project.img %}
             <div style="height: 200px; overflow: hidden;">

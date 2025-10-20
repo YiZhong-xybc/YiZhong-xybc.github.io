@@ -1,14 +1,28 @@
+```markdown
 ---
 layout: page
-title: Multi-Vehicle Cooperative Parking Planning
-description: Trajectory planning for multi-vehicle cooperative parking under continuous traffic in highly constrained parking lots
+title: Trajectory Planning for Multi-Vehicle Cooperative Parking
+description: An event-triggered grouping strategy and receding horizon planning method for large-scale cooperative parking under continuous traffic flow in highly constrained parking lots (2023.9-2024.6)
 img: assets/img/parking_result.jpg
 importance: 1
 category: 2022-2025
 related_publications: false
 ---
 
-This research proposes an event-triggered grouping strategy that decouples large-scale multi-vehicle cooperative parking problems into small-scale optimal control sub-problems. A receding horizon planning method is designed for continuous traffic flow scenarios.
+**Challenges:**
+
+Multi-vehicle trajectory planning(MVTP) in constrained parking lots faces significant challenges:
+
+- Multiple spatiotemporal constraints
+- Inability to handle continuous traffic flow scenarios where vehicles continuously enter and exit
+- Lack of feasible initial solutions for optimization algorithms
+
+**Method**
+
+To address these challenges:
+
+- An event-triggered grouping strategy that decomposes large-scale multi-vehicle cooperative parking problems into small-scale optimal control sub-problems
+- A receding-horizon planning method designed for continuous traffic-flow scenarios
 
 {% raw %}
 
@@ -23,10 +37,11 @@ This research proposes an event-triggered grouping strategy that decouples large
 {% endraw %}
 
 <div class="caption">
-    Multi-vehicle cooperative parking simulation demonstration.
+    Simulation demonstration.
 </div>
 
-Simulation experiments show that compared with baseline methods, parking delay is reduced by 35.8% and driving speed is improved by 24.7%, significantly improving overall parking lot efficiency.
+Simulation experiments demonstrate that compared with baseline methods, our approach reduces parking delay by 35.8% and improves average driving speed by 24.7%.
 
 **Submitted**  
 "A Trajectory Planning Method for Multi-Vehicle Cooperative Parking under Continuous Traffic in Highly Constrained Parking Lots" Han Zheng, Yi Zhong, Yuhao Zhang, Weiwei Kong*, Fachao Jiang; *Automotive Innovation\*, under review.
+```
