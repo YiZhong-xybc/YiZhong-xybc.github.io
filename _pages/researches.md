@@ -22,14 +22,14 @@ horizontal: false
   <!-- Generate cards for each research -->
   {% if page.horizontal %}
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-1">
+    <div class="row row-cols-1 row-cols-md-2">
     {% for research in sorted_researches %}
       {% include researches_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-1">
+  <div class="row row-cols-1 row-cols-md-2">
     {% for research in sorted_researches %}
       {% include researches.liquid %}
     {% endfor %}
@@ -48,14 +48,14 @@ horizontal: false
 {% if page.horizontal %}
 
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-1">
+    <div class="row row-cols-1 row-cols-md-2">
     {% for research in sorted_researches %}
       {% include researches_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-1">
+  <div class="row row-cols-1 row-cols-md-3">
     {% for research in sorted_researches %}
       {% include researches.liquid %}
     {% endfor %}

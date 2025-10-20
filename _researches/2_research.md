@@ -26,5 +26,8 @@ A simulated experience-enhanced Critic network update method and a dynamic searc
         {% include figure.liquid loading="eager" path="assets/img/mcts_result.jpg" title="algorithm results" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    some results
+</div>
 
 Compared with baseline methods, the proposed algorithm achieves higher cumulative rewards while reducing sample usage by 25%.
