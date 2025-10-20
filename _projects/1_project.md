@@ -20,4 +20,6 @@ related_publications: false
     Left: hardware setup; Right: live camera inference.
 </div>
 
+
+
 Developed a lightweight wheat stripe-rust detector that runs in real time on Raspberry Pi 4B. A YOLOv5-Lite model (ONNX) classifies disease severity from CSI-camera images, streams results via MQTT to Alibaba Cloud IoT, and offers a PyQt GUI for local/remote operation.

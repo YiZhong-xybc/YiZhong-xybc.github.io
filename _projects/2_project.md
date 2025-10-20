@@ -34,6 +34,8 @@ related_publications: false
 
 {% endraw %}
 
+<div style="margin-top: 2rem;"></div>
+
 Developed a tic-tac-toe human-machine gameplay device.  
 Served as the team leader, coordinating pre-competition preparation and task delegation.  
 Responsible for the electronic control system, including:
