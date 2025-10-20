@@ -90,9 +90,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "researches-research-project-1",
-          title: 'Research Project 1',
-          description: "A sample research project with background image",
+            },},{id: "researches-multi-vehicle-cooperative-parking-planning",
+          title: 'Multi-Vehicle Cooperative Parking Planning',
+          description: "Trajectory planning for multi-vehicle cooperative parking under continuous traffic in highly constrained parking lots",
           section: "Researches",handler: () => {
               window.location.href = "/researches/1_research/";
             },},{
