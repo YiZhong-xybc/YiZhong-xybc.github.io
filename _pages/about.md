@@ -33,3 +33,25 @@ I am currently a senior undergraduate student majoring in Electronic Information
 My research interests lie in **reinforcement learning** and **autonomous driving**. In particular, I am fascinated by the intersection of control, robotics, and artificial intelligence, and how these fields converge to enable intelligent autonomous systems.
 
 I am eager to explore challenging problems in autonomous decision-making and contribute to advancing the state of the art in these areas.
+
+---
+
+## Research experience
+
+<div class="row row-cols-1 row-cols-md-2">
+  {% assign sorted_researches = site.researches | sort: "importance" %}
+  {% for research in sorted_researches limit:4 %}
+    {% include researches.liquid %}
+  {% endfor %}
+</div>
+
+---
+
+## Selected Projects
+
+<div class="row row-cols-1 row-cols-md-2">
+  {% assign sorted_projects = site.projects | sort: "importance" %}
+  {% for project in sorted_projects limit:4 %}
+    {% include projects.liquid %}
+  {% endfor %}
+</div>
