@@ -183,6 +183,17 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Research cards specific styling
+.researches {
+  .card {
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+
 // Citation
 
 .citation,
