@@ -92,11 +92,11 @@ I am eager to explore challenging problems in autonomous decision-making and con
 
 ---
 
-## Selected Projects
+## Projects
 
 <div class="row row-cols-1 row-cols-md-3">
   {% assign sorted_projects = site.projects | sort: "importance" %}
-  {% for project in sorted_projects limit:3 %}
+  {% for project in sorted_projects limit:5 %}
     <div class="col mb-3">
       <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
         <div class="card h-100 hoverable" style="height: 300px;">
