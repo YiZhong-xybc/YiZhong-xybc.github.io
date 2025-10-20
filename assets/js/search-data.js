@@ -50,9 +50,9 @@ ninja.data = [{
           description: "A lightweight YOLOv5-Lite model running on Raspberry Pi 4B",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-tic-tac-toe-human-machine-device",
+          title: 'Tic-Tac-Toe Human-Machine Device',
+          description: "2023 Beijing E-Design Contest, 3rd Prize",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
