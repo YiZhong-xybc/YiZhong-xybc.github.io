@@ -72,12 +72,12 @@ ninja.data = [{
               window.location.href = "/projects/5_project/";
             },},{id: "researches-trajectory-planning-for-multi-vehicle-cooperative-parking",
           title: 'Trajectory Planning for Multi-Vehicle Cooperative Parking',
-          description: "A Trajectory Planning Method for Multi-Vehicle Cooperative Parking under Continuous Traffic in Highly Constrained Parking Lots (2023.9-2024.6)",
+          description: "(2023.9-2024.6)",
           section: "Researches",handler: () => {
               window.location.href = "/researches/1_research/";
             },},{id: "researches-mcts-enhanced-actor-critic-algorithm",
           title: 'MCTS-Enhanced Actor-Critic Algorithm',
-          description: "Deep reinforcement learning algorithm combining Monte Carlo Tree Search with Actor-Critic framework (2024.7-2025.3)",
+          description: "(2024.7-2025.3)",
           section: "Researches",handler: () => {
               window.location.href = "/researches/2_research/";
             },},{
