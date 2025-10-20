@@ -35,12 +35,12 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-fruit-and-veg-sorting-robot",
           title: 'Fruit-and-Veg Sorting Robot',
-          description: "Software Practice Course Design | Grade A+",
+          description: "Course Design · Software Practice  | Grade A+",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-line-following-smart-car",
           title: 'Line-Following Smart Car',
-          description: "Comprehensive Practice Course Design | Grade A+",
+          description: "Course Design · Comprehensive Practice  | Grade A+",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-cotton-seeding-robot",
