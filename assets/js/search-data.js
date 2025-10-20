@@ -72,7 +72,7 @@ ninja.data = [{
               window.location.href = "/projects/5_project/";
             },},{id: "researches-mcts-enhanced-actor-critic-algorithm",
           title: 'MCTS-Enhanced Actor-Critic Algorithm',
-          description: "Deep reinforcement learning algorithm combining Monte Carlo Tree Search with Actor-Critic framework",
+          description: "Deep reinforcement learning algorithm combining Monte Carlo Tree Search with Actor-Critic framework (2024.7-2025.3)",
           section: "Researches",handler: () => {
               window.location.href = "/researches/2_research/";
             },},{
