@@ -70,11 +70,6 @@ ninja.data = [{
           description: "2023 Int&#39;l Smart Ag-Equipment Contest | Provincial A-Class 2nd Prize",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "researches-multi-vehicle-cooperative-parking-planning",
-          title: 'Multi-Vehicle Cooperative Parking Planning',
-          description: "Trajectory planning for multi-vehicle cooperative parking under continuous traffic in highly constrained parking lots",
-          section: "Researches",handler: () => {
-              window.location.href = "/researches/1_research/";
             },},{id: "researches-mcts-enhanced-actor-critic-algorithm",
           title: 'MCTS-Enhanced Actor-Critic Algorithm',
           description: "Deep reinforcement learning algorithm combining Monte Carlo Tree Search with Actor-Critic framework",
