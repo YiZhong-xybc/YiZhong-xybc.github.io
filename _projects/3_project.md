@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fruit-and-Veg Sorting Robot
-description: Software Practice Course Design | Grade A+
+description: Course Design · Software Practice  | Grade A+
 img: assets/img/sorter_cover.png
 importance: 3
 category: 2022-2025

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Line-Following Smart Car
-description: Comprehensive Practice Course Design | Grade A+
+description: Course Design · Comprehensive Practice  | Grade A+
 img: assets/img/linecar_cover.png
 importance: 4
 category: 2022-2025
