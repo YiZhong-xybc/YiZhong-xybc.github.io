@@ -95,6 +95,11 @@ ninja.data = [{
           description: "Trajectory planning for multi-vehicle cooperative parking under continuous traffic in highly constrained parking lots",
           section: "Researches",handler: () => {
               window.location.href = "/researches/1_research/";
+            },},{id: "researches-mcts-enhanced-actor-critic-algorithm",
+          title: 'MCTS-Enhanced Actor-Critic Algorithm',
+          description: "Deep reinforcement learning algorithm combining Monte Carlo Tree Search with Actor-Critic framework",
+          section: "Researches",handler: () => {
+              window.location.href = "/researches/2_research/";
             },},{
         id: 'social-email',
         title: 'email',
