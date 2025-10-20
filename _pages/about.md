@@ -13,11 +13,11 @@ profile:
                 color:#444;font-size:15px">
       <strong>email</strong>: zhongyi@cau.edu.cn
     </span>
-    
+    <br>
     <a href="/assets/pdf/cv.pdf" target="_blank">download CV</a>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: True # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
