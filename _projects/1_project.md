@@ -3,7 +3,7 @@ layout: page
 title: Real-time Wheat Stripe-Rust Detector
 description: A lightweight YOLOv5-Lite model running on Raspberry Pi 4B
 img: assets/img/wheat_detector_photo.jpg
-importance: 1
+importance: 2
 category: 2022-2025
 related_publications: false
 ---

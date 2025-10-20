@@ -5,7 +5,7 @@ description: Deep reinforcement learning algorithm combining Monte Carlo Tree Se
 img: assets/img/mcts_cover.jpg
 importance: 2
 category: 2022-2025
-related_publications: true
+related_publications: false
 ---
 
 ## Research Content
