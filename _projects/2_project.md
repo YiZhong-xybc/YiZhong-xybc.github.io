@@ -22,22 +22,22 @@ related_publications: false
 
 <!-- <div style="margin-top: 2rem;">
   <p>
-    Developed a tic-tac-toe human-machine gameplay device. 
-    
+    Developed a tic-tac-toe human-machine gameplay device.
+
     Served as the team leader, coordinating pre-competition preparation and task delegation. Responsible for the electronic control system, including:
 
-    - Motor control and UART communication with the OpenMV module based on STM32.  
-    - Implementation of the tic-tac-toe game algorithm.  
+    - Motor control and UART communication with the OpenMV module based on STM32.
+    - Implementation of the tic-tac-toe game algorithm.
     - Motion planning for the robotic arm.
   </p>
 </div> -->
+
 {% endraw %}
 
 Developed a tic-tac-toe human-machine gameplay device.  
 Served as the team leader, coordinating pre-competition preparation and task delegation.  
 Responsible for the electronic control system, including:
 
-- Motor control and UART communication with the OpenMV module based on STM32.  
-- Implementation of the tic-tac-toe game algorithm.  
+- Motor control and UART communication with the OpenMV module based on STM32.
+- Implementation of the tic-tac-toe game algorithm.
 - Motion planning for the robotic arm.
-

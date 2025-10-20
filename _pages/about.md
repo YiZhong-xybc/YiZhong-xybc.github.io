@@ -138,4 +138,11 @@ I am eager to explore challenging problems in autonomous decision-making and con
   {% endfor %}
 </div>
 
+---
+
+## Awards
+
+- National Scholarship (2023)
+- First Prize in the National Undergraduate Mathematics Competition (2023)
+
 <div style="margin-bottom: 5rem;"></div>
