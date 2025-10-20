@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: page
 title: Trajectory Planning for Multi-Vehicle Cooperative Parking
@@ -44,4 +43,7 @@ Simulation experiments demonstrate that compared with baseline methods, our appr
 
 **Submitted**  
 "A Trajectory Planning Method for Multi-Vehicle Cooperative Parking under Continuous Traffic in Highly Constrained Parking Lots" Han Zheng, Yi Zhong, Yuhao Zhang, Weiwei Kong*, Fachao Jiang; *Automotive Innovation\*, under review.
+
+```
+
 ```

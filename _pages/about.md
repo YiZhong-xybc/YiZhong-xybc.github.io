@@ -45,7 +45,7 @@ I am eager to explore challenging problems in autonomous decision-making and con
   {% for research in sorted_researches limit:3 %}
     <div class="col mb-3">
       <a href="{% if research.redirect %}{{ research.redirect }}{% else %}{{ research.url | relative_url }}{% endif %}">
-        <div class="card h-100 hoverable" style="height: 450px;">
+        <div class="card h-100 hoverable" style="height: 550px;">
           {% if research.img %}
             <div style="height: 200px; overflow: hidden;">
               {%
