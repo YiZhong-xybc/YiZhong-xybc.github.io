@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tic-Tac-Toe Human-Machine Device
+title: Tic-Tac-Toe Playing Device
 description: 2023 Beijing E-Design Contest, 3rd Prize
 img: assets/img/tictactoe_cover.jpg
 importance: 1
@@ -22,7 +22,10 @@ related_publications: false
 
 <div style="margin-top: 2rem;">
   <p>
-    Developed a tic-tac-toe human-machine gameplay device. Served as the team leader, coordinating pre-competition preparation and task delegation. Responsible for the electronic control system, including:  
+    Developed a tic-tac-toe human-machine gameplay device. 
+    
+    Served as the team leader, coordinating pre-competition preparation and task delegation. Responsible for the electronic control system, including:
+      
     - Motor control and UART communication with the OpenMV module based on STM32.  
     - Implementation of the tic-tac-toe game algorithm.  
     - Motion planning for the robotic arm.
