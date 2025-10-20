@@ -8,13 +8,16 @@ category: 2022-2025
 related_publications: false
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/video/demo1.mp4" title="Demo video" class="img-fluid rounded z-depth-1" %}
+{% raw %}
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1">
+        <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115403976152937&bvid=BV1gxsuz9EiG&cid=33227738726&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+        </iframe>  
     </div>
+  </div>
 </div>
-<div class="caption">
-    demo video
-</div>
+{% endraw %}
 
 Compact embedded system that plays tic-tac-toe against a human on a physical 3×3 board.

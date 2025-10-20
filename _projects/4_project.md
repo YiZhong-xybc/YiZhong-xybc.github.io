@@ -2,22 +2,20 @@
 layout: page
 title: Line-Following Smart Car
 description: Comprehensive Practice Course Design | Grade A+
-img: assets/img/linecar_cover.jpg
+img: assets/img/linecar_cover.png
 importance: 4
 category: 2022-2025
 related_publications: false
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/linecar_video.jpg" title="Track run" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/linecar_setup.jpg" title="Hardware layout" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Left: track run; Right: hardware layout.
-</div>
+{% raw %}
 
-Arduino 巡线小车：PID 调速 + 五路红外阵列，1.2 m/s 不减速弯道，稳定完赛。
+<div class="row justify-content-sm-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1">
+        <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115404009640497&bvid=BV1UbsuzDEdg&cid=33227932691&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+        </iframe>
+    </div>
+  </div>
+</div>
+{% endraw %}

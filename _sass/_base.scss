@@ -194,6 +194,23 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Project cards specific styling
+.projects {
+  .card {
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .card-img {
+      height: 200px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+
 // Citation
 
 .citation,
