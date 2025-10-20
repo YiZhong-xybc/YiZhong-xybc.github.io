@@ -55,9 +55,9 @@ ninja.data = [{
           description: "2023 Beijing E-Design Contest, 3rd Prize",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-fruit-and-veg-sorting-robot",
+          title: 'Fruit-and-Veg Sorting Robot',
+          description: "Software Practice Course Design | Grade A+",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
