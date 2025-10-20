@@ -28,8 +28,8 @@ ninja.data = [{
           description: "Undergraduate Research Program",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-tic-tac-toe-human-machine-device",
-          title: 'Tic-Tac-Toe Human-Machine Device',
+            },},{id: "projects-tic-tac-toe-playing-device",
+          title: 'Tic-Tac-Toe Playing Device',
           description: "2023 Beijing E-Design Contest, 3rd Prize",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
