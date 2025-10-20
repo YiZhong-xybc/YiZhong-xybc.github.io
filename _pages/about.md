@@ -36,14 +36,16 @@ I am eager to explore challenging problems in autonomous decision-making and con
 
 <div style="margin-top: 10rem;"></div>
 
+---
+
 ## Research experience
 
-<div class="row row-cols-1 row-cols-md-1">
+<div class="row row-cols-1 row-cols-md-2">
   {% assign sorted_researches = site.researches | sort: "importance" %}
   {% for research in sorted_researches limit:3 %}
     <div class="col mb-3">
-      <a href="{% if research.redirect %}{{ research.redirect }}{% else %}{{ research.url | relative_url }}{% endif %}">
-        <div class="card h-100 hoverable" style="height: 300px;">
+      <a href="{% if research.redirect %}{{ research.redirect %}{% else %}{{ research.url | relative_url }}{% endif %}">
+        <div class="card h-100 hoverable" style="height: 450px;">
           {% if research.img %}
             <div style="height: 200px; overflow: hidden;">
               {%
@@ -53,7 +55,7 @@ I am eager to explore challenging problems in autonomous decision-making and con
                 sizes = "200px"
                 alt="research thumbnail"
                 class="card-img-top"
-                style="height: 120px; object-fit: cover; width: 100%;"
+                style="height: 200px; object-fit: cover; width: 100%;"
               %}
             </div>
           {% endif %}
@@ -84,13 +86,15 @@ I am eager to explore challenging problems in autonomous decision-making and con
 
 <div style="margin-top: 2rem;"></div>
 
+---
+
 ## Selected Projects
 
 <div class="row row-cols-1 row-cols-md-3">
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects limit:3 %}
     <div class="col mb-3">
-      <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+      <a href="{% if project.redirect %}{{ project.redirect %}{% else %}{{ project.url | relative_url }}{% endif %}">
         <div class="card h-100 hoverable" style="height: 300px;">
           {% if project.img %}
             <div style="height: 200px; overflow: hidden;">
@@ -101,7 +105,7 @@ I am eager to explore challenging problems in autonomous decision-making and con
                 sizes = "200px"
                 alt="project thumbnail"
                 class="card-img-top"
-                style="height: 120px; object-fit: cover; width: 100%;"
+                style="height: 200px; object-fit: cover; width: 100%;"
               %}
             </div>
           {% endif %}
@@ -129,3 +133,5 @@ I am eager to explore challenging problems in autonomous decision-making and con
     </div>
   {% endfor %}
 </div>
+
+<div style="margin-bottom: 5rem;"></div>
