@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/video/媒体1.mp4" title="Demo video" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/video/demo1.mp4" title="Demo video" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
