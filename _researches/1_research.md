@@ -44,6 +44,3 @@ Simulation experiments demonstrate that compared with baseline methods, our appr
 **Submitted**  
 "A Trajectory Planning Method for Multi-Vehicle Cooperative Parking under Continuous Traffic in Highly Constrained Parking Lots" Han Zheng, Yi Zhong, Yuhao Zhang, Weiwei Kong\*, Fachao Jiang; <em>Automotive Innovation</em>, under review.
 
-```
-
-```

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cotton Seeding Robot
-description: 2023 Int'l Smart Ag-Equipment Contest | Provincial A-Class 2nd Prize
+description: 2023 Int'l Smart Ag-Equipment Contest | 2nd Prize
 img: assets/img/cottonbot_cover.png
 importance: 5
 category: 2022-2025
