@@ -258,6 +258,7 @@ ul.task-list input[type="checkbox"] {
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
+  text-align: right;
 
   a {
     color: inherit;
@@ -1461,5 +1462,25 @@ figure.cover {
   /* mouse over link */
   a.cover-link:hover {
     color: #23212d !important;
+  }
+}
+
+// About page content font size customization
+.post {
+  // Increase font size for about page content
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  // Increase font size for about page lists (awards section)
+  ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  li {
+    font-size: 1.1rem;
+    line-height: 1.6;
   }
 }

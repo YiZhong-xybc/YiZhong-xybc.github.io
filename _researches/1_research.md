@@ -8,9 +8,11 @@ category: 2022-2025
 related_publications: false
 ---
 
-**Challenges:**
+With the gradual commercialization of autonomous parking systems, multi-vehicle cooperative parking will become the trend of unmanned parking lots in the future to further enhance traffic efficiency and safety. This paper aims to address a large-scale multi-vehicle cooperative parking problem in highly constrained parking lots with continuous traffic flows.
 
-Multi-vehicle trajectory planning(MVTP) in constrained parking lots faces significant challenges:
+**Challenges**
+
+Multi-vehicle trajectory planning(MVTP) faces significant challenges:
 
 - Multiple spatiotemporal constraints
 - Inability to handle continuous traffic flow scenarios where vehicles continuously enter and exit
