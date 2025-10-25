@@ -17,28 +17,23 @@ related_publications: false
     MCTS-AC framework combining planning and learning
 </div>
 
-## Overview
+**Motivation**
 
-This research proposes a novel deep reinforcement learning algorithm that integrates Monte Carlo Tree Search (MCTS) with the Actor-Critic (A2C) framework for path planning problems. By combining model-based planning with model-free reinforcement learning, the algorithm significantly improves sample efficiency while maintaining robust performance.
+Model-free reinforcement learning methods like Actor-Critic suffer from low sample efficiency, requiring extensive environmental interactions to learn effective policies. On the other hand, model-based planning methods such as MCTS have high computational costs and can introduce action distribution bias. This research aims to combine the strengths of both approaches: leveraging explicit forward planning from MCTS while maintaining the learning efficiency of neural networks, ultimately reducing both sample complexity and online computational overhead.
 
-## Key Contributions
+**Approach**
 
-**1. Policy and Value Network Guided MCTS**
-- Actor network provides prior knowledge for action selection through PUCT tree policy
-- Critic network directly evaluates leaf nodes, eliminating costly random rollouts
-- Temporal difference calculation converts state values to action values efficiently
+This research proposes a novel algorithm that integrates Monte Carlo Tree Search with the Actor-Critic framework for path planning problems. The algorithm uses three interacting policies: π_θ (Actor network) provides prior knowledge for action selection, π_mcts (MCTS planning policy) is guided by both Critic and Actor networks, and π_d (final decision policy) blends the two during training to balance exploration and exploitation.
 
-**2. Simulated Experience Learning**
-- Novel loss function leveraging Q-value estimates from MCTS exploration
-- Addresses action distribution bias caused by preferential planning
-- Improves value function accuracy by incorporating suboptimal action evaluations
+Two key mechanisms enhance the integration: First, a simulated experience learning method addresses the action distribution bias inherent in planning by leveraging Q-value estimates from MCTS exploration, improving Critic network accuracy even for suboptimal actions. Second, a dynamic search ratio adjustment progressively increases MCTS influence during training (ρ: 0 → 1), allowing broader exploration in early stages while emphasizing high-quality planning in later stages.
 
-**3. Dynamic Search Ratio Adjustment**
-- Progressive increase of MCTS influence during training (ρ: 0 → 1)
-- Balances exploration in early stages with exploitation in later stages
-- Enables better convergence while avoiding local optima
+**Key Technical Contributions**
 
-## Experimental Results
+- **Policy and Value Network Guided MCTS**: The Actor network provides prior probabilities through a PUCT tree policy, while the Critic network directly evaluates leaf nodes using temporal difference calculations, eliminating the need for costly random rollouts.
+
+- **Simulated Experience Learning**: A novel loss function that leverages Q-value estimates obtained during MCTS exploration helps the Critic network form more accurate state value estimates by incorporating information about suboptimal actions that planning explores but doesn't execute.
+
+- **Search Ratio Scheduling**: A progressive increase of MCTS influence (ρ) during training balances exploration in early stages with exploitation in later stages, enabling faster convergence while avoiding local optima.
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -49,24 +44,11 @@ This research proposes a novel deep reinforcement learning algorithm that integr
     </div>
 </div>
 <div class="caption">
-    Left: Baseline comparison showing faster convergence and higher returns. Right: Ablation study validating key components.
+    Left: Baseline comparison in 5×5 grid environment showing faster convergence and higher cumulative rewards. Right: Ablation study validating the importance of simulated experience learning and search ratio adjustment.
 </div>
 
-**Performance Highlights:**
-- **25% reduction in sample usage** compared to pure A2C
-- **Faster convergence** with more stable training dynamics
-- **Superior generalization** demonstrated in pursuit-evasion scenarios with moving targets
-- Validated across multiple environments: 5×5 grid world, CartPole-v1, and dynamic pursuit tasks
+**Results**
 
-## Technical Details
+Compared with baseline methods (pure A2C and pure MCTS), the proposed MCTS-AC algorithm achieves 25% reduction in sample usage while obtaining higher cumulative rewards and faster convergence. Ablation studies confirm that both the simulated experience learning mechanism and search ratio adjustment are crucial for stable learning and optimal performance.
 
-The algorithm maintains three policies:
-- **π_θ**: Actor network providing initial policy and prior knowledge
-- **π_mcts**: Planning policy guided by MCTS with critic and actor networks
-- **π_d**: Final decision policy blending π_θ and π_mcts during training
-
-During execution, the algorithm uses off-policy actor-critic updates with importance sampling to handle the distribution mismatch between behavior policy (π_d) and target policy (π_θ).
-
----
-
-*Supervised by Prof. [Name] at [Institution]*
+The algorithm demonstrates strong generalization capability across different environments including 5×5 grid worlds, CartPole-v1, and dynamic pursuit-evasion scenarios. Notably, when tested in pursuit-evasion tasks with moving targets (different from the static target training environment), the algorithm maintains robust performance, showing superior adaptability compared to pure A2C.
