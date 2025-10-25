@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Trajectory Planning for Multi-Vehicle Cooperative Parking
-description: (2023.9-2024.6)
+description: An event-triggered grouping approach for large-scale vehicle coordination (2023.9-2024.6)
 img: assets/img/parking_result.jpg
 importance: 1
 category: 2022-2025
