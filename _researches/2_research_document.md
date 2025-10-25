@@ -21,7 +21,7 @@ A simulated experience-enhanced Critic network update method and a dynamic searc
     MCTS-AC framework
 </div>
 
-**Key Contributions**
+**Method Highlights**
 
 - **Policy and Value Network Guided MCTS**: The Actor network provides prior probabilities through a PUCT tree policy, while the Critic network directly evaluates leaf nodes using temporal difference calculations, eliminating the need for costly random rollouts.
 
