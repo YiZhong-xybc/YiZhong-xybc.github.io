@@ -50,14 +50,9 @@ ninja.data = [{
               window.location.href = "/projects/5_project/";
             },},{id: "researches-trajectory-planning-for-multi-vehicle-cooperative-parking",
           title: 'Trajectory Planning for Multi-Vehicle Cooperative Parking',
-          description: "An event-triggered grouping approach for MVTP (2023.9-2024.6)",
+          description: "(2023.9-2024.6)",
           section: "Researches",handler: () => {
               window.location.href = "/researches/1_research/";
-            },},{id: "researches-mcts-enhanced-actor-critic-algorithm",
-          title: 'MCTS-Enhanced Actor-Critic Algorithm',
-          description: "A hybrid planning and learning approach for path planning (2024.7-2025.3)",
-          section: "Researches",handler: () => {
-              window.location.href = "/researches/2_research/";
             },},{id: "researches-mcts-enhanced-actor-critic-algorithm",
           title: 'MCTS-Enhanced Actor-Critic Algorithm',
           description: "(2024.7-2025.3)",
